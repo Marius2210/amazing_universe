@@ -1,0 +1,49 @@
+const getData = async () => {
+        const key = "yvcm5OMdw1G6UHyhNio11cc27klQGINbfeQNQqTW"
+        const url = `https://api.nasa.gov/planetary/apod?api_key=${key}`
+
+        const response = await fetch (url)
+        const datos = await response.json()
+        console.log(datos)
+        return update(datos) 
+    }
+
+    const update = (datos) => {
+        document.getElementById('title').innerHTML = datos.title;
+        document.getElementById('apod-pic').src = datos.url;
+        document.getElementById('caption').innerHTML = datos.explanation;
+        return datos;
+    }
+
+    useEffect(() => {
+        getData();
+    })
+
+    /*Mostrar la fecha actual en español*/
+    let currentDate = new Date() ;
+    currentDate.getDay();
+    currentDate.getDate();
+    currentDate.getMonth();
+    currentDate.getFullYear();
+
+    let weekDay = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+    weekDay[currentDate.getDay()];
+
+    let monthYear = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+    monthYear[currentDate.getMonth()];
+     
+    return (
+        <div className="content">
+            <h1>NASA APOD-Imagen astronómica del día</h1>
+            <br/>
+            <p>Fecha de hoy:
+            <br/>
+               {`${weekDay[currentDate.getDay()]}, ${currentDate.getDate()} de ${monthYear[currentDate.getMonth()]} de ${currentDate.getFullYear()}`}
+            </p>
+            <h2 id="title"/>
+            <div>
+                <img id="apod-pic"/>
+            </div>
+            <p id="caption"/>
+        </div>
+    )
