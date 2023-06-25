@@ -1,3 +1,5 @@
+import superNova4 from '../../assets/images/superNova4.jpg'
+
 const Site2 = () => {
     return (
       <div className="site2">
@@ -8,7 +10,7 @@ const Site2 = () => {
             <br />
           </p>
           <div className="super-nova4">
-            <img src="src\assets\images\superNova4.jpg"></img>
+            <img src={superNova4}/>
           </div>
         </div>
         <div className="site2-text2">

@@ -1,3 +1,7 @@
+import blackHole from '../../assets/images/blackHole.png'
+import blackHole3 from '../../assets/images/blackHole3.jpg'
+import blackHole4 from '../../assets/images/blackHole4.jpg'
+
 const Site1 = () => {
   return (
     <div className="site1">
@@ -8,12 +12,12 @@ const Site1 = () => {
           <br />
         </p>
         <div className="black-hole">
-          <img src="src\assets\images\blackHole.png"></img>
+          <img src={blackHole}/>
         </div>
       </div>
       <div className="site1-text2">
         <div className="black-hole3">
-          <img src="src\assets\images\blackHole3.jpg"></img>
+          <img src={blackHole3}/>
         </div>
         <p>
         A black hole's gravity, or "space-time warp," causes a singularity enclosed by a closed surface, called an event horizon. This is predicted by the Einstein field equations. The event horizon separates the region of the black hole from the rest of the universe, and once inside it, no type of particle, material or electromagnetic, can leave, not even photons. This curvature is studied by general relativity, which predicted the existence of black holes and was its first indication.
@@ -29,7 +33,7 @@ const Site1 = () => {
           </a>
         </p>
         <div className="black-hole4">
-          <img src="src\assets\images\blackHole4.jpg"></img>
+          <img src={blackHole4}/>
         </div>
       </div>
     </div>

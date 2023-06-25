@@ -1,3 +1,6 @@
+import quasar from '../../assets/images/quasar.jpg'
+import quasar2 from '../../assets/images/quasar2.jpg'
+
 const Site4 = () => {
     return (
       <div className="site4">
@@ -8,12 +11,12 @@ const Site4 = () => {
             <br />
           </p>
           <div className="quasar">
-            <img src="src\assets\images\quasar.jpg"></img>
+            <img src={quasar}/>
           </div>
         </div>
         <div className="site4-text2">
           <div className="quasar2">
-            <img src="src\assets\images\quasar2.jpg"></img>
+            <img src={quasar2}/>
           </div>
           <p>
           The first quasars were discovered with radio telescopes in the late 1950s. Many were recorded as radio sources that had no corresponding visible object. Using small telescopes and the Lovell telescope as an interferometer, the objects were shown to have a very small angular size.

@@ -1,8 +1,10 @@
+import galaxy from '../../assets/images/galaxy.png'
+
 const Curiositie4 = () => {
   return (
     <div className="curiositie4">
       <div className="galaxy">
-        <img src="src\assets\images\galaxy.png"></img>
+        <img src={galaxy}/>
       </div>
       <div className="curiositie4-text">
         <h3>There could be 2 trillion galaxies</h3>

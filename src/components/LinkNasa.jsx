@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "./Button";
+import universe3 from '../assets/images/universe3.png';
 
 const LinkNasa = () => {
   return (
@@ -12,7 +13,7 @@ const LinkNasa = () => {
         <Link to='nasa'><Button text='See more'/></Link>
         </div>
         <div className="universe3">
-        <img src="src\assets\images\universe3.png" />
+        <img src={universe3} />
       </div>
     </div>
   );

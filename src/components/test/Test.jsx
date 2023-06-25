@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../Footer";
+import error from '../../assets/images/error.png'
+import check from '../../assets/images/check.png'
 
 const Test = () => {
   const questions = [
@@ -133,10 +135,10 @@ const Test = () => {
   /*Función para mostrar un imagen dependiendo si aprobó o reprobó*/
   const scoreImg = () => {
     if (score < 6) {
-      return "src/assets/images/error.png";
+      return error;
     }
     if (score >= 6) {
-      return "src/assets/images/check.png";
+      return check;
     }
   };
 

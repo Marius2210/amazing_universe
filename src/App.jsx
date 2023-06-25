@@ -11,6 +11,7 @@ function App() {
   return (
     <>
     <Navigation/>
+    <Start/>
     <Routes>
       <Route path='/' element={<Start/>}/>
       <Route path='curiosities' element={<Curiosities/>}/>

@@ -1,3 +1,5 @@
+import sun from '../../assets/images/sun.png'
+
 const Curiositie7 = () => {
   return (
     <div className="curiositie7">
@@ -15,7 +17,7 @@ const Curiositie7 = () => {
         </p>
       </div>
       <div className="sun">
-        <img src="src\assets\images\sun.png"></img>
+        <img src={sun}/>
       </div>
     </div>
   );

@@ -1,11 +1,13 @@
 import Button from "./Button";
 import { Link } from "react-router-dom";
+import blackHole2 from '../assets/images/blackHole2.png';
+import superNova from '../assets/images/superNova.png';
 
 const LinkSites = () => {
   return (
     <div className="link-sites">
       <div className="black-hole2">
-        <img src="src\assets\images\blackHole2.png" />
+        <img src={blackHole2} />
       </div>
       <div className="text4">
         <h4>Amazing sites</h4>
@@ -18,7 +20,7 @@ const LinkSites = () => {
         </Link>
       </div>
       <div className="super-nova">
-        <img src="src\assets\images\superNova.png" />
+        <img src={superNova} />
       </div>
     </div>
   );

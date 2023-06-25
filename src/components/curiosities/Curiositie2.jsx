@@ -1,8 +1,10 @@
+import universe from '../../assets/images/universe.jpg'
+
 const Curiositie2 = () => {
   return (
     <div className="curiositie2">
       <div className="universe">
-        <img src="src\assets\images\universe.jpg"></img>
+        <img src={universe}/>
       </div>
       <div className="curiositie2-text">
         <h3>What you see is not what is, and what is you will not see</h3>

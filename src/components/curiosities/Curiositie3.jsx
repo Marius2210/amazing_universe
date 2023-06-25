@@ -1,3 +1,5 @@
+import venus from '../../assets/images/venus.png'
+
 const Curiositie3 = () => {
   return (
     <div className="curiositie3">
@@ -15,7 +17,7 @@ const Curiositie3 = () => {
         </p>
       </div>
       <div className="venus">
-        <img src="src\assets\images\venus.png"></img>
+        <img src={venus}/>
       </div>
     </div>
   );

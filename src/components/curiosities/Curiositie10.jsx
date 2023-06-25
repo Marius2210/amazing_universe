@@ -1,8 +1,10 @@
+import universe2 from '../../assets/images/universe2.png'
+
 const Curiositie10 = () => {
   return (
     <div className="curiositie10">
       <div className="universe2">
-        <img src="src\assets\images\universe2.png"></img>
+        <img src={universe2}/>
       </div>
       <div className="curiositie10-text">
         <h3>How will the Universe die? Do you have a limit?</h3>

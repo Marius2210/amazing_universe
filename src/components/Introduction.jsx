@@ -1,8 +1,11 @@
+import astronaut from '../assets/images/astronaut.png';
+import meteorite from '../assets/images/meteorite.png';
+
 const Introduction = () => {
     return (
       <div className="introduction">
         <div className="astronaut">
-            <img src="src\assets\images\astronaut.png"/>
+            <img src={astronaut}/>
         </div>
         <div className="text1">
           <h1>Discover the most amazing of the cosmic universe</h1>
@@ -11,7 +14,7 @@ const Introduction = () => {
           </p>
         </div>
         <div className="meteorite">
-        <img src="src\assets\images\meteorite.png"/>
+        <img src={meteorite}/>
         </div>
       </div>
     );

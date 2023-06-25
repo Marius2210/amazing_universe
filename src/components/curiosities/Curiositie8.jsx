@@ -1,8 +1,10 @@
+import planets2 from '../../assets/images/planets2.png'
+
 const Curiositie8 = () => {
   return (
     <div className="curiositie8">
       <div className="planets2">
-        <img src="src\assets\images\planets2.png"></img>
+        <img src={planets2}/>
       </div>
       <div className="curiositie8-text">
         <h3>How many planets have been discovered?</h3>

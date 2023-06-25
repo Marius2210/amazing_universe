@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "./Button";
+import rocket from '../assets/images/rocket.png';
 
 const LinkCuriosities = () => {
   return (
@@ -12,7 +13,7 @@ const LinkCuriosities = () => {
         </Link>
       </div>
       <div className="rocket">
-        <img src="src\assets\images\rocket.png" />
+        <img src={rocket} />
       </div>
     </div>
   );

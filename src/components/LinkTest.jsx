@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import Button from "./Button";
+import check from '../assets/images/check.png';
 
 const LinkTest = () => {
   return (
     <div className="link-test">
       <div className="check">
-        <img src="src\assets\images\check.png" />
+        <img src={check} />
       </div>
       <div className="text6">
         <h5>¡Test yourself!</h5>

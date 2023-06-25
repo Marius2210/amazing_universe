@@ -1,8 +1,10 @@
+import superNova2 from '../../assets/images/superNova2.png'
+
 const Curiositie6 = () => {
   return (
     <div className="curiositie6">
       <div className="super-nova2">
-        <img src="src\assets\images\superNova2.png"></img>
+        <img src={superNova2}/>
       </div>
       <div className="curiositie6-text">
         <h3>A supernova thousands of light-years away would extinguish life on Earth</h3>

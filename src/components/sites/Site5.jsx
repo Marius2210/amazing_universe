@@ -1,3 +1,6 @@
+import wallHercules from '../../assets/images/wallHercules.jpg'
+import wallHercules2 from '../../assets/images/wallHercules2.jpg'
+
 const Site5 = () => {
     return (
       <div className="site5">
@@ -8,12 +11,12 @@ const Site5 = () => {
             <br />
           </p>
           <div className="wall-hercules">
-            <img src="src\assets\images\wallHercules.jpg"></img>
+            <img src={wallHercules}/>
           </div>
         </div>
         <div className="site5-text2">
           <div className="wall-hercules2">
-            <img src="src\assets\images\wallHercules2.jpg"></img>
+            <img src={wallHercules2}/>
           </div>
           <p>
           This gigantic structure was discovered in November 2013 through a survey of gamma-ray bursts that occur in the distant universe. The astronomers used data from the Swift Gamma-Ray Burst Mission and the Fermi gamma-ray telescope. The Hercules-Corona Borealis Great Wall was also the first structure, outside of large quasar clusters, to hold the title of the largest known structure in the universe since 1991.

@@ -1,3 +1,6 @@
+import hiperNova from '../../assets/images/hiperNova.jpg'
+import hiperNova2 from '../../assets/images/hiperNova2.jpg'
+
 const Site3 = () => {
     return (
       <div className="site3">
@@ -8,12 +11,12 @@ const Site3 = () => {
             <br />
           </p>
           <div className="hiper-nova">
-            <img src="src\assets\images\hiperNova.jpg"></img>
+            <img src={hiperNova}/>
           </div>
         </div>
         <div className="site3-text2">
           <div className="hiper-nova2">
-            <img src="src\assets\images\hiperNova2.jpg"></img>
+            <img src={hiperNova2}/>
           </div>
           <p>
           In 1998 a hypernova was detected for the first time but the consequent gamma-ray burst was not observed. New studies of other hypernovae indicated that the gaseous blanket that covered some hypernovae sometimes prevented them from ejecting gamma radiation. That is why two types of hypernovae have been established: with jets and with smothered jets.

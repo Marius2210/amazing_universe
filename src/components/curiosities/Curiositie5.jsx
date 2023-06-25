@@ -1,3 +1,5 @@
+import blackHole from '../../assets/images/blackHole.png'
+
 const Curiositie5 = () => {
   return (
     <div className="curiositie4">
@@ -15,7 +17,7 @@ const Curiositie5 = () => {
         </p>
       </div>
       <div className="black-hole">
-        <img src="src\assets\images\blackHole.png"></img>
+        <img src={blackHole}/>
       </div>
     </div>
   );

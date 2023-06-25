@@ -1,3 +1,5 @@
+import multiverse from '../../assets/images/multiverse.png'
+
 const Curiositie9 = () => {
   return (
     <div className="curiositie9">
@@ -15,7 +17,7 @@ const Curiositie9 = () => {
         </p>
       </div>
       <div className="multiverse">
-        <img src="src\assets\images\multiverse.png"></img>
+        <img src={multiverse}/>
       </div>
     </div>
   );

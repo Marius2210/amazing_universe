@@ -1,8 +1,10 @@
+import telescope from '../assets/images/telescope.png';
+
 const Introduction2 = () => {
     return (
         <div className="introduction2">
             <div className="telescope">
-                <img src="src\assets\images\telescope.png"/>
+                <img src={telescope}/>
             </div>
             <div className="text2">
             <h2>If you are curious about the universe, this website is for you</h2>
