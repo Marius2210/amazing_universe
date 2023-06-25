@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import BurguerButton from "./BurguerButton"
 import React, { useState } from "react";
+import Title from './assets/images/title.png';
 
 const Navigation = () => {
 
@@ -15,7 +16,7 @@ const Navigation = () => {
     return ( 
       <nav className="navigation">
         <div className="title">
-        <Link to="/"><img src={`src/assets/images/saturn.png`}/></Link>
+        <Link to="/"><img src={Title}/></Link>
         </div>
         <ul className={`nav-main ${clicked ? "active" : ""}`}>
             <li>
