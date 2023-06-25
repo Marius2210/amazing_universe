@@ -15,7 +15,7 @@ const Navigation = () => {
     return ( 
       <nav className="navigation">
         <div className="title">
-        <Link to="/"><img src="src\assets\images\title.png"/></Link>
+        <Link to="/"><img src={`src/assets/images/saturn.png`}/></Link>
         </div>
         <ul className={`nav-main ${clicked ? "active" : ""}`}>
             <li>
