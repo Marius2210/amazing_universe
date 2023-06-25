@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import BurguerButton from "./BurguerButton"
 import React, { useState } from "react";
-import title from './assets/images/title.png';
+import title from '../assets/images/title.png'
 
 const Navigation = () => {
 
