@@ -1,4 +1,6 @@
 import superNova4 from '../../assets/images/superNova4.jpg'
+import superNova3 from '../../assets/images/superNova3.jpg'
+import superNova2 from '../../assets/images/superNova2.png'
 
 const Site2 = () => {
     return (
@@ -15,7 +17,7 @@ const Site2 = () => {
         </div>
         <div className="site2-text2">
           <div className="super-nova3">
-            <img src="src\assets\images\superNova3.jpg"></img>
+            <img src={superNova3}/>
           </div>
           <p>
           The last supernova directly observed in the Milky Way was Kepler's Supernova in 1604, appearing not long after Tycho's Supernova in 1572, both of which were visible to the naked eye. The remnants of more recent supernovae have been found, and observations of supernovae in other galaxies suggest they occur in the Milky Way on average about three times every century. A supernova in the Milky Way would almost certainly be observable through modern astronomical telescopes. The most recent naked-eye supernova was SN 1987A, which was the explosion of a blue supergiant star in the Large Magellanic Cloud, a satellite of the Milky Way.
@@ -31,7 +33,7 @@ const Site2 = () => {
             </a>
           </p>
           <div className="super-nova2">
-            <img src="src\assets\images\superNova2.png"></img>
+            <img src={superNova2}/>
           </div>
         </div>
       </div>
