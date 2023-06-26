@@ -14,9 +14,10 @@ const Navigation = () => {
     }
 
     return ( 
+    <>  
       <nav className="navigation">
         <div className="title">
-        <Link to="/"><img src={title}/></Link>
+        <Link to="/amazing_universe"><img src={title}/></Link>
         </div>
         <ul className={`nav-main ${clicked ? "active" : ""}`}>
             <li>
@@ -34,6 +35,7 @@ const Navigation = () => {
         </ul>
         <BurguerButton clicked={clicked} handleClick={handleClick}/>
       </nav>
+    </>
     )
 }
 

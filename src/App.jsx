@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes} from 'react-router-dom'
 import './App.css'
 import Navigation from './components/Navigation'
 import Curiosities from './components/curiosities/Curiosities'
@@ -12,11 +12,11 @@ function App() {
     <>
     <Navigation/>
     <Routes>
-      <Route path='/' element={<Start/>}/>
-      <Route path='curiosities' element={<Curiosities/>}/>
-      <Route path='sites' element={<Sites/>}/>
-      <Route path='test' element={<Test/>} />
-      <Route path='nasa' element={<Nasa/>} />
+        <Route path='/amazing_universe' element={<Start/>}/>
+        <Route path='curiosities' element={<Curiosities/>}/>
+        <Route path='sites' element={<Sites/>}/>
+        <Route path='test' element={<Test/>} />
+        <Route path='nasa' element={<Nasa/>} />
     </Routes>
     </>
   )
