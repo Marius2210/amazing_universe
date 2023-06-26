@@ -11,7 +11,7 @@ const LinkTest = () => {
       <div className="text6">
         <h5>¡Test yourself!</h5>
         <p>Solve the following test with what you have learned on this website.</p>
-        <Link to='test'><Button text='See more'/></Link>
+        <Link to='/test'><Button text='See more'/></Link>
       </div>
     </div>
   );

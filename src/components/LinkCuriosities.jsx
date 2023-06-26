@@ -8,7 +8,7 @@ const LinkCuriosities = () => {
       <div className="text3">
         <h3>The best curiosities</h3>
         <p>Discover the most interesting curiosities about our universe.</p>
-        <Link to="curiosities">
+        <Link to="/curiosities">
           <Button text="See more" />
         </Link>
       </div>

@@ -10,7 +10,7 @@ const LinkNasa = () => {
         <p>
           Discover the images that NASA takes every day from different places in the universe.
         </p>
-        <Link to='nasa'><Button text='See more'/></Link>
+        <Link to='/nasa'><Button text='See more'/></Link>
         </div>
         <div className="universe3">
         <img src={universe3} />

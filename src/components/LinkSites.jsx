@@ -15,7 +15,7 @@ const LinkSites = () => {
           Discover the most curious, mysterious and amazing objects in the
           universe.
         </p>
-        <Link to="sites">
+        <Link to="/sites">
           <Button text="See more" />
         </Link>
       </div>
