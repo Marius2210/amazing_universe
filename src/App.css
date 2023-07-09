@@ -13,8 +13,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #ff0;
   font-size: 25px;
-  /*font-family: 'Righteous', cursive;*/
-  font-family: cursive;
 }
 
 p {
@@ -182,7 +180,6 @@ footer {
 
 footer p {
   color: #ff0;
-  font-family: cursive;
 }
 
 .footer1{
@@ -211,7 +208,6 @@ button {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
-    font-family: cursive;
 }
 
 button:hover {
