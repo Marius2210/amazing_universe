@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { useEffect } from "react"
 import Footer from "../Footer"
+import Error from '../../assets/images/error.png'
 
  const Nasa = () => {
 
@@ -70,8 +71,8 @@ import Footer from "../Footer"
                     </div>
                 ) : (
                     <div className="error">
-                        <img src="src\images\error.png"/>
-                        <p>Ha ocurrido un error con el servidor, porfavor inténtelo más tarde.</p>
+                        <img src={Error}/>
+                        <p>An error has occurred with the server, please try again later.</p>
                     </div>
                 )}
         </div> 
